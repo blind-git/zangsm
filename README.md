@@ -52,7 +52,7 @@ You can modify the [Setup](#setup) script to include the required options for yo
 
 ## [zangsm](https://github.com/blind-git/zangsm/blob/main/zangsm.sh)
 
-To run use `bash zangsm.sh [option]
+To run use `bash zangsm.sh [option]`
 ```
 Options: 
 [-boot conf.cfg...] (Boot one or more servers)
