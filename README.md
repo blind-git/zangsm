@@ -8,7 +8,6 @@ ZANGSM (Zandronum Game Server Manager) is designed to simplify the process of bo
 - [Usage](#usage)
   - [zangsm.sh](#zangsm)
 - [Notes](#notes)
-- [License](#license)
 
 # Setup
 
@@ -63,3 +62,5 @@ Options:
 [-kill]             (Kill a specific server from list)"
 [-killall]          (Kill all servers)"
 ```
+
+Four default configs have been included for each server type you can use these to test boot and to make your own configs from. Find them in `~/zangsm/cfgs/`
