@@ -64,3 +64,8 @@ Options:
 ```
 
 Four default configs have been included for each server type you can use these to test boot and to make your own configs from. Find them in `~/zangsm/cfgs/`
+
+Example:
+```bash
+bash zangsm.sh -boot doomii.cfg qcde.cfg srb2.cfg srb2kart.cfg
+```
