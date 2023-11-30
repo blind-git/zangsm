@@ -1,6 +1,10 @@
 # ZANGSM (Zandronum Game Server Manager)
 
-ZANGSM (Zandronum Game Server Manager) is designed to simplify the process of booting and logging multiple game servers. Supporting Zandronum, Q-Zandronum, Sonic Robo Blast 2 (SRB2), SRB2 Kart. The `zangsm.sh` script is 100% Shell and designed to run on Ubuntu. I have not tested any other distro. Architecture wise, the script is compatible with `x86_64` and `arm64`. A setup script `zangsmsetup.sh` is also provided automating the process of sourcing server binaries and dependencies for running these game servers.   
+ZANGSM (Zandronum Game Server Manager) is designed to simplify the process of booting and logging multiple game servers. Supporting Zandronum, Q-Zandronum, Sonic Robo Blast 2 (SRB2), SRB2 Kart. 
+
+The `zangsm.sh` script is 100% Shell and designed to run on Ubuntu. I have not tested any other distro. Architecture wise, the script is compatible with `x86_64` and `arm64`. 
+
+A setup script `zangsmsetup.sh` is also provided automating the process of sourcing server binaries and dependencies for running these game servers.   
 
 # Contents
 - [Setup](#setup)
