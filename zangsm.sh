@@ -137,7 +137,12 @@ function boot_server() {
   
       # Get port number from server log
       ip_address=$(grep 'IP address' "$LOG")
-      port_num=$(echo "$ip_address" | awk '{print $NF}' | awk -F: '{print $2}')
+      if [ "$ZANVER" = "./zandronum-server" ] || [ "$ZANVER" = "./q-zandronum-server" ]; then
+        port_num=$(echo "$ip_address" | awk '{print $NF}' | awk -F: '{print $2}')
+      else
+        # Set the port directly based on your configuration
+        port_num="$PORT"
+      fi
       # Get WAN IP and combine into address
       wan_ip=$(curl -s -N -4 ifconfig.co)
       ADDRESS="$wan_ip:$port_num"
