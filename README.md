@@ -23,14 +23,14 @@ sudo bash zangsmsetup.sh
 To install server files for x86_64 or arm64 architectures for Zandronum/Q-Zandronum/SRB2/SRB2Kart see the following options:
 
 Usage: sudo bash zangsmsetup.sh [options] 
-
+```
 Options:
 -a, -all        Install all available servers
 -z, -zandronum  Install Zandronum
 -q, -qzandronum Install QZandronum
 -s, -srb2       Install SRB2
 -k, -srb2kart   Install SRB2 Kart
-
+```
 You can modify the # Setup script to include the required options for your setup.
 
 - Install server files into the `~/zangsm` dir. e.g. `zandronum-server` `zandronum.pk3` etc.
@@ -48,7 +48,7 @@ You can modify the # Setup script to include the required options for your setup
 # Usage
 
 ## [zangsm](https://github.com/blind-git/zangsm/blob/main/zangsm.sh)
-
+```
 Options: 
 [-boot conf.cfg...] (Boot one or more servers)
 [-list]             (Indexed list of active servers)
@@ -57,3 +57,4 @@ Options:
 	- To detach from session whilst terminating it, press 'Ctrl-d'.
 [-kill]             (Kill a specific server from list)"
 [-killall]          (Kill all servers)"
+```
