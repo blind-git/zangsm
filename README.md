@@ -38,6 +38,10 @@ Options:
 ```
 You can modify the [Setup](#setup) script to include the required options for your setup.
 
+Example installation for Zandronum and Q-Zandronum (you can use any combination or use -a for all)
+```bash
+sudo bash zangsmsetup.sh -z -q
+```
 # Notes
 
 - Install server files into the `~/zangsm` dir. e.g. `zandronum-server` `zandronum.pk3` etc.
