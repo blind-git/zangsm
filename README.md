@@ -15,8 +15,9 @@ A setup script `zangsmsetup.sh` is also provided automating the process of sourc
 
 # Setup
 
-To get ZANGSM standalone execute the following:
+To install ZANGSM standalone to home directory execute the following:
 ```bash
+cd ~
 git clone https://github.com/blind-git/zangsm.git
 cd ~/zangsm &&
 sudo bash zangsmsetup.sh
