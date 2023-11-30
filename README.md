@@ -6,6 +6,8 @@ The `zangsm.sh` script is 100% Shell and designed to run on Ubuntu. I have not t
 
 A setup script `zangsmsetup.sh` is also provided automating the process of sourcing server binaries and dependencies for running these game servers.   
 
+[gif](https://imgur.com/dDfJ2K7.gif)
+
 # Contents
 - [Setup](#setup)
   - [zangsmsetup.sh](#zansetup)
