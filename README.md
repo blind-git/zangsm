@@ -7,6 +7,7 @@ ZANGSM (Zandronum Game Server Manager) is designed to simplify the process of bo
   - [zangsmsetup.sh](#zansetup)
 - [Usage](#usage)
   - [zangsm.sh](#zangsm)
+- [Notes](#notes)
 - [License](#license)
 
 # Setup
@@ -20,7 +21,7 @@ sudo bash zangsmsetup.sh
 
 ## [zangsmsetup](https://github.com/blind-git/zangsm/blob/main/zangsmsetup.sh)
 
-To install server files for x86_64 or arm64 architectures for Zandronum/Q-Zandronum/SRB2/SRB2Kart see the following options:
+To install server files for `x86_64` or `arm64` architectures for `Zandronum/Q-Zandronum/SRB2/SRB2Kart` see the following options:
 
 Usage: sudo bash zangsmsetup.sh [options] 
 ```
@@ -31,7 +32,9 @@ Options:
 -s, -srb2       Install SRB2
 -k, -srb2kart   Install SRB2 Kart
 ```
-You can modify the # Setup script to include the required options for your setup.
+You can modify the [Setup](#setup) script to include the required options for your setup.
+
+# Notes
 
 - Install server files into the `~/zangsm` dir. e.g. `zandronum-server` `zandronum.pk3` etc.
 
@@ -48,6 +51,8 @@ You can modify the # Setup script to include the required options for your setup
 # Usage
 
 ## [zangsm](https://github.com/blind-git/zangsm/blob/main/zangsm.sh)
+
+To run use `bash zangsm.sh [option]
 ```
 Options: 
 [-boot conf.cfg...] (Boot one or more servers)
